@@ -57,7 +57,7 @@
   bottom: 0;
 }
 
-.time-picker .dropdown {
+.time-picker .time-picker-dropdown {
   position: absolute;
   z-index: 5;
   top: calc(2.2em + 2px);
@@ -69,7 +69,7 @@
   font-weight: normal;
 }
 
-.time-picker .dropdown .select-list {
+.time-picker .time-picker-dropdown .select-list {
   width: 10em;
   height: 10em;
   overflow: hidden;
@@ -79,7 +79,7 @@
   justify-content: space-between;
 }
 
-.time-picker .dropdown ul {
+.time-picker .time-picker-dropdown ul {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -89,31 +89,31 @@
   overflow-y: auto;
 }
 
-.time-picker .dropdown ul.minutes,
-.time-picker .dropdown ul.seconds,
-.time-picker .dropdown ul.apms{
+.time-picker .time-picker-dropdown ul.minutes,
+.time-picker .time-picker-dropdown ul.seconds,
+.time-picker .time-picker-dropdown ul.apms{
   border-left: 1px solid #fff;
 }
 
-.time-picker .dropdown ul li {
+.time-picker .time-picker-dropdown ul li {
   text-align: center;
   padding: 0.3em 0;
   color: #161616;
 }
 
-.time-picker .dropdown ul li:not(.hint):hover {
+.time-picker .time-picker-dropdown ul li:not(.hint):hover {
   background: rgba(0,0,0,.08);
   color: #161616;
   cursor: pointer;
 }
 
-.time-picker .dropdown ul li.active,
-.time-picker .dropdown ul li.active:hover {
+.time-picker .time-picker-dropdown ul li.active,
+.time-picker .time-picker-dropdown ul li.active:hover {
   background: #41B883;
   color: #fff;
 }
 
-.time-picker .dropdown .hint {
+.time-picker .time-picker-dropdown .hint {
   color: #a5a5a5;
   cursor: default;
   font-size: 0.8em;
